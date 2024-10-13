@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "../csv_files"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "sql_course",
+				"database": "postgres",
+				"username": "postgres"
+			},
+			{
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "SQL_project_data_job_analysis",
+				"database": "postgres",
+				"username": "postgres"
+			}
+		]
+	}
+}

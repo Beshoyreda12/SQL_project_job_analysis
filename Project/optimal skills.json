@@ -1,0 +1,127 @@
+[
+  {
+    "skills": "kubernetes",
+    "salary": "158190",
+    "number_of_jobs": "56"
+  },
+  {
+    "skills": "numpy",
+    "salary": "157592",
+    "number_of_jobs": "14"
+  },
+  {
+    "skills": "cassandra",
+    "salary": "151282",
+    "number_of_jobs": "19"
+  },
+  {
+    "skills": "kafka",
+    "salary": "150549",
+    "number_of_jobs": "134"
+  },
+  {
+    "skills": "golang",
+    "salary": "147818",
+    "number_of_jobs": "11"
+  },
+  {
+    "skills": "terraform",
+    "salary": "146057",
+    "number_of_jobs": "44"
+  },
+  {
+    "skills": "pandas",
+    "salary": "144656",
+    "number_of_jobs": "38"
+  },
+  {
+    "skills": "elasticsearch",
+    "salary": "144102",
+    "number_of_jobs": "21"
+  },
+  {
+    "skills": "ruby",
+    "salary": "144000",
+    "number_of_jobs": "14"
+  },
+  {
+    "skills": "ruby",
+    "salary": "144000",
+    "number_of_jobs": "14"
+  },
+  {
+    "skills": "aurora",
+    "salary": "142887",
+    "number_of_jobs": "14"
+  },
+  {
+    "skills": "pytorch",
+    "salary": "142254",
+    "number_of_jobs": "11"
+  },
+  {
+    "skills": "scala",
+    "salary": "141777",
+    "number_of_jobs": "113"
+  },
+  {
+    "skills": "spark",
+    "salary": "139838",
+    "number_of_jobs": "237"
+  },
+  {
+    "skills": "pyspark",
+    "salary": "139428",
+    "number_of_jobs": "64"
+  },
+  {
+    "skills": "dynamodb",
+    "salary": "138883",
+    "number_of_jobs": "27"
+  },
+  {
+    "skills": "mongodb",
+    "salary": "138569",
+    "number_of_jobs": "32"
+  },
+  {
+    "skills": "mongodb",
+    "salary": "138569",
+    "number_of_jobs": "32"
+  },
+  {
+    "skills": "airflow",
+    "salary": "138518",
+    "number_of_jobs": "151"
+  },
+  {
+    "skills": "java",
+    "salary": "138087",
+    "number_of_jobs": "139"
+  },
+  {
+    "skills": "hadoop",
+    "salary": "137707",
+    "number_of_jobs": "98"
+  },
+  {
+    "skills": "typescript",
+    "salary": "137207",
+    "number_of_jobs": "19"
+  },
+  {
+    "skills": "nosql",
+    "salary": "136430",
+    "number_of_jobs": "93"
+  },
+  {
+    "skills": "shell",
+    "salary": "135499",
+    "number_of_jobs": "34"
+  },
+  {
+    "skills": "looker",
+    "salary": "134614",
+    "number_of_jobs": "30"
+  }
+]

@@ -35,3 +35,25 @@ job_information
 
 inner JOIN skills_job_dim on job_information.job_id = skills_job_dim.job_id
 inner join skills_dim on skills_job_dim.skill_id = skills_dim.skill_id
+
+
+
+/* insights based on the top-paying data engineering jobs in 2023:
+
+1. Highest Salary: The top-paying positions for data engineers are offering an impressive average salary of $325,000.
+ This salary is consistent across multiple roles at Engtal, indicating a strong demand for skilled data engineers in that company.
+
+2. Key Skills: The most sought-after skills for these high-paying roles include:
+- Python: A fundamental programming language for data manipulation and analysis.
+- Spark: A powerful tool for big data processing.
+- Pandas and Numpy: Essential libraries for data analysis in Python.
+- Hadoop and Kafka: Important for handling large datasets and real-time data streaming.
+- Kubernetes: Increasingly important for managing containerized applications.
+
+3. Emerging Companies: Companies like AI Startups and Movable Ink are also offering attractive salaries,
+ indicating that the tech industry is expanding and valuing data engineering expertise.
+
+Overall, the data engineering field is thriving,
+ with high salaries reflecting the critical role these professionals play in managing and analyzing data.
+  If you're considering a career in this area, focusing on the mentioned skills could be very beneficial!
+  */

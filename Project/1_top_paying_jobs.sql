@@ -20,7 +20,6 @@ LEFT JOIN company_dim on job_postings_fact.company_id=company_dim.company_id
 
 where job_title_short='Data Engineer' and
 job_work_from_home = TRUE and 
-job_schedule_type= 'Full-time'and 
 salary_year_avg IS NOT NULL
 
 ORDER BY salary_year_avg DESC

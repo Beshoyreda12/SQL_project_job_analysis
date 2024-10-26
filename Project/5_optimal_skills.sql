@@ -29,7 +29,7 @@ Having
 order BY 
     salary desc,
     number_of_jobs desc
-limit 25;
+limit 10;
 
 
 /*1. **High Demand for Cloud and Containerization Skills**: 

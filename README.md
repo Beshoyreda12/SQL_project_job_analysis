@@ -152,6 +152,7 @@ In the ever-evolving field of data engineering, certain skills stand out as esse
 | AWS    | 1,887          |
 | Spark  | 1,516          |
 | Azure  | 1,378          |
+
 *Table of the demand for the top 5 skills in data Engineer job postings*
 
 # What I Learned

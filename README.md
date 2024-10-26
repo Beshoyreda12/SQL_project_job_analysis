@@ -117,7 +117,7 @@ In the high-stakes world of data engineering, specific skills pave the way to to
  
   Mastery of **cloud technologies** such as **Kubernetes and AWS** marks the shift towards cloud-based infrastructures, enhancing the demand for these skills.
 
-  ![Top Paying Skills](Project\figures\top_paying_skills(frequncy).png)
+  ![Top Paying Skills](Project/figures/top_paying_skills(frequncy).png)
   *Bar graph visualizing the count of skills for the top 10 paying jobs for data Engineer; Copilot generated this graph from my SQL query results*
 
 # What I Learned

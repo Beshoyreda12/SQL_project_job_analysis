@@ -120,5 +120,39 @@ In the high-stakes world of data engineering, specific skills pave the way to to
   ![Top Paying Skills](Project/figures/top_paying_skills(frequncy).png)
   *Bar graph visualizing the count of skills for the top 10 paying jobs for data Engineer; Copilot generated this graph from my SQL query results*
 
+### 3.Most In-Demand Skills for Data Engineers
+This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
+```sql 
+SELECT
+    count(job_postings_fact.job_id) as number_of_jobs,
+    skills_dim.skills
+FROM
+    job_postings_fact
+INNER JOIN
+skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+INNER JOIN
+skills_dim ON skills_job_dim.skill_id=skills_dim.skill_id
+WHERE
+    job_title_short='Data Engineer' AND
+    job_schedule_type= 'Full-time'AND 
+    salary_year_avg IS NOT NULL
+GROUP BY 
+skills_dim.skills
+ORDER BY 
+number_of_jobs DESC
+limit 5;
+```
+In the ever-evolving field of data engineering, certain skills stand out as essential. **SQL** takes the lead with 3,052 job listings, cementing its role as a fundamental skill for data engineers. Close on its heels, **Python** is featured in 2,904 listings, demonstrating its versatility and wide applicability. **Cloud technologies** like AWS and Azure are increasingly important, reflecting the shift towards scalable, cloud-based solutions.
+### Most In-Demand Skills for Data Engineers
+
+| Skill  | Number of Jobs |
+|--------|----------------|
+| SQL    | 3,052          |
+| Python | 2,904          |
+| AWS    | 1,887          |
+| Spark  | 1,516          |
+| Azure  | 1,378          |
+*Table of the demand for the top 5 skills in data Engineer job postings*
+
 # What I Learned
 # Conclusions
